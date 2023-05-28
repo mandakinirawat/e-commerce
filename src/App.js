@@ -5,6 +5,7 @@ import Product from "./component/Product";
 import { Routes, Route } from "react-router-dom";
 import CategoryProducts from "./component/CategoryProducts";
 import SelectCategory from "./component/SelectCategory";
+import ItemsInCart from "./component/ItemsInCart";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/" element={<Cards />} />
         <Route path="/products/:id" element={<Product/>} />
         <Route path="/category/:name" element={ <CategoryProducts/>}/>
+        <Route path="/ItemCart" element={<ItemsInCart/>}/>
        
       </Routes>
     </div>

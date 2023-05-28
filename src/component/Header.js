@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
     <div className='header'>
-        <h2>E-COMMERCE</h2>
+        <Link to={"/"}><h2>E-COMMERCE</h2></Link>
         </div>
   )
 }

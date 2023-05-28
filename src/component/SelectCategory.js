@@ -38,7 +38,7 @@ const SelectCategory = () => {
                     width: 300,
                   }}
                 >
-                  <p>{cat}</p>
+                  <p><b>{cat}</b></p>
                 </Card>
               </Link>
             </Col>

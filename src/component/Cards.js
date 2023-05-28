@@ -39,6 +39,7 @@ const Cards = () => {
                   hoverable
                   style={{
                     width: 200,
+                    border
                   }}
                   cover={<img alt="example" src={card.image} />}
                 >
